@@ -33,8 +33,8 @@ function functionName() {
     
     if (document.getElementById("answer_second").textContent == "") {
         if (answer_second <= 13)
-            document.getElementById("answer_second").textContent = "Итоговые баллы: " + answer_second + " - низкая внутрибольничная летальность";
+            document.getElementById("answer_second").textContent = "Итоговые баллы: " + answer_second + " - Низкая внутрибольничная летальность";
         else
-            document.getElementById("answer_second").textContent = "Итоговые баллы: " + answer_second + " - высокая внутрибольничная летальность";
+            document.getElementById("answer_second").textContent = "Итоговые баллы: " + answer_second + " - Высокая внутрибольничная летальность";
     }
 }
