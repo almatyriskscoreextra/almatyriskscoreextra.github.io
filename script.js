@@ -31,6 +31,10 @@ function functionName() {
     if (document.getElementById('gridRadios9').checked == true)
         answer_second += 6;
     
-    if (document.getElementById("answer_second").textContent == "")
-        document.getElementById("answer_second").textContent = "Итоговые баллы: " + answer_second;
+    if (document.getElementById("answer_second").textContent == "") {
+        if (answer_second <= 13)
+            document.getElementById("answer_second").textContent = "Итоговые баллы: " + answer_second + " - низкая внутрибольничная летальность";
+        else
+            document.getElementById("answer_second").textContent = "Итоговые баллы: " + answer_second + " - высокая внутрибольничная летальность";
+    }
 }
