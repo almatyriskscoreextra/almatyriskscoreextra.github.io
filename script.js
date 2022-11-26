@@ -1,6 +1,5 @@
 function functionName() {
     document.getElementById("answer_second").textContent = "";
-
     var first = document.getElementById('id_first').value;
     var second = document.getElementById('id_second').value;
     var third = document.getElementById('id_third').value;
